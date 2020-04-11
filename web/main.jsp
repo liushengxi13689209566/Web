@@ -178,7 +178,11 @@
                                     <shiro:hasRole name="teacher">
                                         <li class="list-group-item">
                                             <a href="javascript:void(0)" class="menu_item"
-                                               name="pagecomponent/courseHandle.jsp">课程信息查看</a>
+                                               name="pagecomponent/courseStudentHandle.jsp">学生管理</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="javascript:void(0)" class="menu_item"
+                                               name="pagecomponent/courseHandle.jsp">课程管理</a>
                                         </li>
                                     </shiro:hasRole>
                                     <!--若为超级管理员-->
